@@ -14,3 +14,12 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 application.properties fins ovan vid fråger kontakta mig via canvas elller dante030724@gmail.com 
 
 tack så mycket
+
+
+
+
+
+spring.datasource.username=DagensLunch
+spring.datasource.password=1234
+
+(det viktigaste)
