@@ -1,22 +1,20 @@
-package com.foodapp.dish;
 
-import java.sql.Date;
+package com.Dagens.Lunch.Dagens.Lunch;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import java.sql.Date;
 
 @Entity
 public class Dish {
-
-    private String name;
-    private String description;
-    private Date dateAdded;
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+    private String name;
+    private String description;
+    private Date dateAdded;
 
     public String getName() {
         return name;
