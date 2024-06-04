@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a New Dish</title>
+</head>
+
+<body>
+    <h1>Add a New Dish</h1>
+    <form method="post" th:action="@{/new-dish}">
+        <input type="text" name="name" placeholder="Enter dish name" required>
+        <textarea name="description" placeholder="Enter dish description" required></textarea>
+        <input type="date" name="dateAdded" placeholder="Enter date added" required>
+        <button type="submit">Save</button>
+    </form>
+    <a href="/">Back to Home</a>
+</body>
+
+</html>
